@@ -153,7 +153,7 @@ app.post('/push', function(req, res) {
 				};
 				subscribers.push(subscription);
 			});
-			Promise.all(subscribers.map(subscription() {
+			Promise.all(subscribers.map(function(subscription) {
 					return webpush.sendNotification(subscription, JSON.stringify(params), {});
 				}))
 				.then(function(res) {
