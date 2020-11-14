@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://shingohorie@bitbucket.org/shingohorie/pwa-test.git"
+    "url": "https://github.com/shingohorie/pwa-server"
   },
   "engines": {
     "node": "10.x",
@@ -27,5 +27,5 @@
   },
   "author": "",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/shingohorie/pwa-test#readme"
+  "homepage": "https://pwa.portfolio-s.info/"
 }
