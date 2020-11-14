@@ -1,0 +1,8 @@
+{
+  "name": "portfolio-s-pwa",
+  "description": "Portfolio-s PWA",
+  "repository": "https://git.heroku.com/portfolio-s-pwa.git",
+  "logo": "",
+  "keywords": ["node", "pwa"],
+  "image": "heroku/nodejs"
+}

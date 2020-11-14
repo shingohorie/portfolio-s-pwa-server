@@ -1,0 +1,8 @@
+.sass-cache
+.DS_Store
+bower_components
+node_modules
+.svn
+Thumbs.db
+*.sqlite3
+*.code-workspace
