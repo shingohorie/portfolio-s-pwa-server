@@ -132,7 +132,7 @@ app.post('/push', function(req, res) {
 		};
 
 		webpush.setVapidDetails(
-			'mailto:shingo-sss@plala.or.jp',
+			'mailto:shingo.horie.mobile@gmail.com',
 			'BFibl7x-mj9rAcmMKlkiR78Gc0H9AhT87GscGWy3Lbt_rc-khCwMx2TdSY1b0tbHIiyzNUenqM9mD-uF5unl_ro',
 			'VJDN0xh7iQr2ZBONwPYwQRVSh-ASXO03JRFuiMsGLVc'
 		);
@@ -153,7 +153,7 @@ app.post('/push', function(req, res) {
 				};
 				subscribers.push(subscription);
 			});
-			Promise.all(subscribers.map(subscription => {
+			Promise.all(subscribers.map(subscription() {
 					return webpush.sendNotification(subscription, JSON.stringify(params), {});
 				}))
 				.then(function(res) {
